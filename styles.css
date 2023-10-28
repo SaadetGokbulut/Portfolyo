@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ae5214e5;
+    text-align: center;
+    
+    background-image:url(greyandblug.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav {
+    background-color: #3e4c67;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 24px;
+    height: auto;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+section {
+    text-align: center  ;
+    max-width: 1500px;
+    padding: 40px;
+    background-color: #527ca4dd;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    color: #000000c2;
+}
+
+.skill-meter {
+    background-color: #9ed3d08c;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #419ef5;
+}
+
+.skill p {
+    margin: 0;
+}
+
+#github{
+    width:auto ;
+    height:60px;
+}
+#mail{
+    width:auto ;
+    height:60px;
+}
+footer {
+    background-color: #3e4c67;
+    color: #fff;
+    padding: 20px 0;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: #2b9cde;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #8eccd4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color:  #4644ad;
+}
